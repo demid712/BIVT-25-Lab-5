@@ -395,9 +395,10 @@ namespace Lab5
 
         public int[][] Task11(int[,] matrix)
         {
-            int[][] answer = new int[matrix.GetLength(0)][];
+            int[][] answer = null;
 
             // code here
+            answer = new int[matrix.GetLength(0)][];
             int r = matrix.GetLength(0);
             int c = matrix.GetLength(1);
 
@@ -471,4 +472,5 @@ namespace Lab5
             return answer;
         }
     }
+
 }
